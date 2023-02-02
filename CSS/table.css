@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: none;
+  font-size: 18px;
+}
+.table-data {
+  width: 800px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.table-data tr td {
+  width: 200px;
+  height: 48px;
+}
+.table-data tr th {
+  width: 200px;
+  height: 48px;
+  background-color: #087f5b;
+  color: white;
+}
+.table-data tr:nth-child(odd) {
+  background-color: #f1f3f5;
+}
+.table-data tr td:nth-child(1) {
+  color: black;
+  font-weight: 700;
+}

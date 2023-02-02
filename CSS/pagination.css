@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: none;
+}
+body {
+  padding: 0;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  width: 500px;
+  margin: 50px auto;
+}
+button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  background-color: white;
+}
+.prev,
+.next {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #087f5b;
+  background-color: white;
+}
+.icon {
+  stroke: #087f5b;
+  width: 21px;
+  height: 21px;
+}
+.three {
+  color: white;
+  background-color: #087f5b;
+}
+.pager button:hover {
+  color: white;
+  background-color: #087f5b;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.333);
+}
+.prev:hover,
+.next:hover {
+  background-color: #087f5b;
+  transform: scale(0.94);
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.333);
+}
+.prev:hover .icon,
+.next:hover .icon {
+  stroke: white;
+  transform: scale(0.94);
+}

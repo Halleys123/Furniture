@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  /* border-bottom: 5px solid #087f5b; */
+  margin: 0 30px;
+  position: relative;
+}
+.maria {
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.347);
+}
+.caro {
+  width: 850px;
+  height: 200px;
+  padding: 32px;
+  margin: 100px auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #087f5b;
+  position: relative;
+
+  gap: 30px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  color: #e6fcf5;
+}
+.author,
+.job {
+  color: #96f2d7;
+}
+.button {
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  position: absolute;
+
+  border: none;
+  background-color: rgb(243, 248, 241);
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.488);
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* padding: 0 6px;
+  gap: 0; */
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.button-left {
+  left: -15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.button-right {
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -15px;
+}
+.button-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/*
+--------------------------------------------------------
+
+
+Change display:none in below to view some extra content
+
+
+--------------------------------------------------------
+*/ /*
+.caro-one {
+  display: none;
+}*/
+/*
+
+--------------------------------------------------------
+
+remove above to view extra content
+
+--------------------------------------------------------
+
+*/
+.caro-one {
+  /* background-color: #fcc419; */
+  background: hsla(40, 94%, 74%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(40, 94%, 74%, 1) 0%,
+    hsla(60, 89%, 72%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(40, 94%, 74%, 1) 0%,
+    hsla(60, 89%, 72%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(40, 94%, 74%, 1) 0%,
+    hsla(60, 89%, 72%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FBD07C", endColorstr="#F7F779", GradientType=1 );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D8FC6E", endColorstr="#545454", GradientType=1 );
+}
+.caro-one .button-icon {
+  stroke: #fcc419;
+}
+.caro-one .author,
+.caro-one .job {
+  color: #fff;
+}
+.caro-one .text {
+  color: #103783;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid #087f5b;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50px);
+}
+.dot-one {
+  background-color: #087f5b;
+}
+.dota-two {
+  background-color: #fcc419;
+}
+.dota {
+  border: 2px solid #fcc419;
+}
+.to-home {
+  margin-top: 10px;
+  color: #087f5b;
+  font-size: 24px;
+  width: 100px;
+  padding: 16px 0;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0 solid #d3f9d8;
+  text-align: center;
+  background-color: #d3f9d8;
+  border-radius: 16px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.363);
+  position: absolute;
+  left: 685px;
+  bottom: -130px;
+}
+
+.to-home:hover {
+  transform: scale(1.05);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.363);
+}
+.to-home:active {
+  transform: scale(0.95);
+  box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.363);
+}
